@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(179, 148, 90);
+    margin: 0px;
+}
+
+* {
+    font-family: Arial;
+}
+
+header, footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 1% 5%;
+}
+
+main {
+    background-color: rgb(215, 226, 193);
+    height: 75vh;
+    padding: 1% 5%;
+    display:flex;
+    justify-content: center;
+}
+
+.row{
+    display:flex;
+    flex-direction: row;
+    padding: 5%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 60vh;
+}

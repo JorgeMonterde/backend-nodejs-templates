@@ -1,0 +1,14 @@
+include ./head.pug
+body 
+    include ./header.pug
+    main 
+        section
+            article 
+                h2 Contact
+                p If you have any questions or suggestions you can fill the form below and we will be glad to answer you as soon as we can!
+                form(id="contact_form")
+                    input(type="text", id="name" name="name", placeholder="Your name")
+                    input(type="text", id="email" name="email", placeholder="Your email")
+                    input(type="text", id="message" name="message", placeholder="Your question or suggestion")
+                    input(type="submit", value="Send")
+include ./footer.pug
